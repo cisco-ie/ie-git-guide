@@ -1,7 +1,6 @@
 # Innovation Edge's Git Guide: Zero to 100
 
-This guide is to provide newcomers with a brief set of readings to develop a general understanding of Git and our current Git strategy in place.
-Thus, by no means is this a comprehensive guide to Git, but a means to be effective when getting started with Git.
+This guide is to provide newcomers with a brief set of readings to develop a general understanding of Git and our current Git strategy in place. Thus, by no means is this a comprehensive guide to Git, but a means to be effective when getting started with Git.
 
 ## Required Readings
 ### Git Introduction
@@ -19,6 +18,23 @@ Thus, by no means is this a comprehensive guide to Git, but a means to be effect
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
 ## Useful Things
+### Git Aliases
+Include these alias in your shell's `.rc` file, and you'll have access to these useful git aliases.
+
+```bash
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gp='git pull'
+alias gps='git push'
+alias gpsu='git push --set-upstream origin'
+alias gd='git diff'
+alias got='git '
+alias get='git '
+alias glog='git log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local'
+```
+
 ### Reference Sheets
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 - [Visual Reference to Git Commands](http://marklodato.github.io/visual-git-guide/index-en.html)
