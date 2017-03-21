@@ -18,6 +18,9 @@ This guide is to provide newcomers with a brief set of readings to develop a gen
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
 ## Useful Things
+### Automated Tooling
+- [GitMagic](https://app.gitmagic.io/) - Automate rule checking, a [contribution.json](https://github.com/cisco-ie/ie-git-guide/blob/master/contributing.json) is located within this repo, which falls inline with Chris Beam's article.
+
 ### Git Aliases
 Include these alias in your shell's `.rc` file, and you'll have access to these useful git aliases.
 
