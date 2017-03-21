@@ -1,4 +1,4 @@
-# Innovation Edge Git Guide: Zero to 100
+# Innovation Edge's Git Guide: Zero to 100
 
 This guide is to provide newcomers with a brief set of readings to develop a general understanding of Git and our current Git strategy in place.
 Thus, by no means is this a comprehensive guide to Git, but a means to be effective when getting started with Git.
