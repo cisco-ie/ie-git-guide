@@ -23,9 +23,5 @@ Thus, by no means is this a comprehensive guide to Git, but a means to be effect
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 - [Visual Reference to Git Commands](http://marklodato.github.io/visual-git-guide/index-en.html)
 
-### GUI based Git Tools
-- [Source Tree](https://www.sourcetreeapp.com/)
-- [Github Only Tool](https://desktop.github.com/)
-
 ## License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
