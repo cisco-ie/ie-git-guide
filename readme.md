@@ -4,22 +4,23 @@ This guide is to provide newcomers with a brief set of readings to develop a gen
 
 ## Required Readings
 ### Git Introduction
-- [A Short Git Guide](http://rogerdudler.github.io/git-guide/)
+- **[A Short Git Guide](http://rogerdudler.github.io/git-guide/)**
 
 ### Git Strategies
 > This will be our branching strategy, which is widely used among popular Github OOS projects. In addition, it's rather simple, yet flexible. Even better, it's pure bliss with continuous delivery and CI.
 
-- [Introduction to Github Flow](https://guides.github.com/introduction/flow/)
+- **[Introduction to Github Flow](https://guides.github.com/introduction/flow/)**
 - *Optional: [A deeper dive of Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)*
 
 ### Git Practices
 > A easy, yet effective practice that everyone should be following, which will make it far easier to comprehend Git histories.
 
-- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+- **[How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)**
 
 ## Useful Things
 ### Automated Tooling
-- [GitMagic](https://app.gitmagic.io/) - Automate rule checking, a [contribution.json](https://github.com/cisco-ie/ie-git-guide/blob/master/contributing.json) is located within this repo, which falls inline with Chris Beam's article.
+- **[GitMagic](https://app.gitmagic.io/)**  
+Automate rule checking, a [contribution.json](https://github.com/cisco-ie/ie-git-guide/blob/master/contributing.json) is located within this repo, which falls inline with Chris Beam's article.
 
 ### Git Aliases
 Include these alias in your shell's `.rc` file, and you'll have access to these useful git aliases.
@@ -39,13 +40,13 @@ alias glog='git log --graph --decorate --pretty=oneline --abbrev-commit --all --
 ```
 
 ### Reference Sheets
-- [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
-- [Visual Reference to Git Commands](http://marklodato.github.io/visual-git-guide/index-en.html)
-- [Most Commonly Used Git Commands and Tricks](https://github.com/git-tips/tips)
+- **[GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)**
+- **[Visual Reference to Git Commands](http://marklodato.github.io/visual-git-guide/index-en.html)**
+- **[Most Commonly Used Git Commands and Tricks](https://github.com/git-tips/tips)**
 
 ## Extra Credit
 This material is not required but is still relevant.
-- [Git Book](https://git-scm.com/book/en/v2)  
+- **[Git Book](https://git-scm.com/book/en/v2)**  
 One of the best resources on git. This is a lot of content and not necessary for day-to-day, but you will become very proficient with this material.
 
 ## License
