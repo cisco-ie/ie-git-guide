@@ -41,6 +41,7 @@ alias glog='git log --graph --decorate --pretty=oneline --abbrev-commit --all --
 ### Reference Sheets
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
 - [Visual Reference to Git Commands](http://marklodato.github.io/visual-git-guide/index-en.html)
+- [Most Commonly Used Git Commands and Tricks](https://github.com/git-tips/tips)
 
 ## License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
