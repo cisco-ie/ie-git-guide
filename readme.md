@@ -43,5 +43,10 @@ alias glog='git log --graph --decorate --pretty=oneline --abbrev-commit --all --
 - [Visual Reference to Git Commands](http://marklodato.github.io/visual-git-guide/index-en.html)
 - [Most Commonly Used Git Commands and Tricks](https://github.com/git-tips/tips)
 
+## Extra Credit
+This material is not required but is still relevant.
+- [Git Book](https://git-scm.com/book/en/v2)  
+One of the best resources on git. This is a lot of content and not necessary for day-to-day, but you will become very proficient with this material.
+
 ## License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
