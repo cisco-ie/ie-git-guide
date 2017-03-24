@@ -7,10 +7,14 @@ This guide is to provide newcomers with a brief set of readings to develop a gen
 - **[A Short Git Guide](http://rogerdudler.github.io/git-guide/)**
 
 ### Git Strategies
-> This will be our branching strategy, which is widely used among popular Github OOS projects. In addition, it's rather simple, yet flexible. Even better, it's pure bliss with continuous delivery and CI.
+> This will be our branching strategy, which is widely used among popular GitHub OOS projects. In addition, it's rather simple, yet flexible. Even better, it's pure bliss with continuous delivery and CI.
 
-- **[Introduction to Github Flow](https://guides.github.com/introduction/flow/)**
+- **[Introduction to GitHub Flow](https://guides.github.com/introduction/flow/)**
 - *Optional: [A deeper dive of Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)*
+
+Once you review the articles above, you'll be wondering how does this fit inline with us? You can review the diagram below, which provides a concrete a sample git history spanning 2 sprints.
+
+[Diagram of GitHub Flow Revised for IE Sprints](https://cisco-ie.github.io/ie-git-guide/)
 
 ### Git Practices
 > A easy, yet effective practice that everyone should be following, which will make it far easier to comprehend Git histories.
