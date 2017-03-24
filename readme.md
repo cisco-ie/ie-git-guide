@@ -12,7 +12,7 @@ This guide is to provide newcomers with a brief set of readings to develop a gen
 - **[Introduction to GitHub Flow](https://guides.github.com/introduction/flow/)**
 - *Optional: [A deeper dive of Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)*
 
-Once you review the articles above, you'll be wondering how does this fit inline with us? You can review the diagram below, which provides a concrete a sample git history spanning 2 sprints.
+Once you review the articles above, you'll be wondering how does this fit inline with us? Well, the diagram below provides a sample git history of a project spanning 2 typical sprints.
 
 [Diagram of GitHub Flow Revised for IE Sprints](https://cisco-ie.github.io/ie-git-guide/)
 
