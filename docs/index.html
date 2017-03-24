@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Innovation Edge Git Branch Strategy</title>
+		<meta name="description" content="GitHub Flow Strategy revised with Sprints">
+		<meta name="author" content="Brandon Him">
+		<script src="bower_components/gitgraph.js/src/gitgraph.js"></script>
+		<link rel="stylesheet" type="text/css" href="bower_components/gitgraph.js/src/gitgraph.css" />
+	  <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	  <![endif]-->
+	</head>
+
+	<body>
+		<canvas id="gitGraph"></canvas>
+
+		<script type="text/javascript">
+			var tid = setInterval(function () {
+				if (document.readyState !== "complete" && !GitGraph) return;
+				clearInterval(tid);
+
+				var gitgraph = new GitGraph({
+					template: "metro",
+					orientation: "vertical"
+				});
+
+				var master = gitgraph.branch("master");
+				master.commit("Start project");
+				master.commit("Add readme");
+				var sprint = gitgraph.branch("sprint-1");
+				var authBranch = sprint.branch("16-refactor-authentication");
+				authBranch.commit({
+					dotSize: 10,
+					dotStrokeWidth: 8,
+					sha1: "f29a9s",
+					message: "Clean authentication lib",
+					author: "Brandon Him <brhim@cisco.com>"
+				});
+
+				authBranch.commit({
+					dotSize: 10,
+					dotStrokeWidth: 8,
+					sha1: "22fas1",
+					message: "Add oAuth2 integration",
+					author: "Brandon Him <brhim@cisco.com>"
+				});
+
+
+				var addServiceFeature = sprint.branch("13-topology-service");
+				addServiceFeature.commit({
+					dotSize: 10,
+					dotStrokeWidth: 10,
+					sha1: "fadz23s",
+					message: "Add initial rendering",
+					author: "Steven Yee <steveyee@cisco.com>"
+				});
+
+				authBranch.commit({
+					dotSize: 10,
+					dotStrokeWidth: 8,
+					sha1: "19sf9s",
+					message: "Fix Remmington's super function",
+					author: "Brandon Him <brhim@cisco.com>"
+				});
+
+				addServiceFeature.commit({
+					dotSize: 10,
+					dotStrokeWidth: 10,
+					sha1: "daf211s",
+					message: "Implement topology generator",
+					author: "Steven Yee <steveyee@cisco.com>"
+				});
+
+				addServiceFeature.commit({
+					dotSize: 10,
+					dotStrokeWidth: 10,
+					sha1: "111as2",
+					message: "Refactor topology generator",
+					author: "Steven Yee <steveyee@cisco.com>"
+				});
+				addServiceFeature.merge(sprint);
+				sprint.merge(master, { message: "Merge in Sprint-1", tag: "v1.0.0" });
+
+				authBranch.commit({
+					dotSize: 10,
+					dotStrokeWidth: 8,
+					sha1: "2asd11a",
+					message: "Rewrite auth token function",
+					author: "Remmington Campbell <rcampbell@cisco.com>"
+				});
+
+				var sprint2 = master.branch("sprint-2");
+
+				authBranch.commit({
+					dotSize: 10,
+					dotStrokeWidth: 8,
+					sha1: "2adz211",
+					message: "Add auth token verification",
+					author: "Remmington Campbell <rcampbell@cisco.com>"
+				});
+
+				authBranch.merge(sprint2);
+				sprint2.merge(master, { message: "Merge in Sprint-2", tag: "v1.1.0" });
+			}, 100 );
+		</script>
+	</body>
+</html>

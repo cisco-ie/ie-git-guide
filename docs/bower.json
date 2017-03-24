@@ -1,0 +1,19 @@
+{
+  "name": "git-branch-example",
+  "homepage": "https://github.com/cisco-ie/ie-git-guide",
+  "authors": [
+    "Brandon Him <brhim@cisco.com>"
+  ],
+  "description": "An example of a git branch sequence",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
